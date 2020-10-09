@@ -1,0 +1,11 @@
+service: my-bot
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  getWeather:
+    handler: handler.getWeather
